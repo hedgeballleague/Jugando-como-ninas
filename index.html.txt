@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla General - Liga Femenil</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>🏆 Tabla General de la Liga</h1>
+    </header>
+
+    <main>
+        <h2>Clasificación por Jornada</h2>
+        
+        <table id="tabla-general">
+            <thead>
+                <tr>
+                    <th>POS</th>
+                    <th>Equipo</th>
+                    <th>JJ</th>
+                    <th>JG</th>
+                    <th>JP</th>
+                    <th>PF</th>
+                    <th>PC</th>
+                    <th>PTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Drama Queen</td><td>7</td><td>7</td><td>0</td><td>350</td><td>200</td><td>14</td></tr>
+                <tr><td>2</td><td>AMAZONAS</td><td>7</td><td>6</td><td>1</td><td>320</td><td>210</td><td>13</td></tr>
+                <tr><td>3</td><td>Spartans</td><td>7</td><td>5</td><td>2</td><td>310</td><td>220</td><td>12</td></tr>
+                <tr><td>4</td><td>Gladiadoras</td><td>7</td><td>4</td><td>3</td><td>300</td><td>230</td><td>11</td></tr>
+                <tr><td>5</td><td>Phoenix</td><td>7</td><td>4</td><td>3</td><td>290</td><td>240</td><td>11</td></tr>
+                <tr><td>6</td><td>Quetzales</td><td>7</td><td>3</td><td>4</td><td>280</td><td>250</td><td>10</td></tr>
+                <tr><td>7</td><td>MAMBAS</td><td>7</td><td>3</td><td>4</td><td>270</td><td>260</td><td>10</td></tr>
+                <tr><td>8</td><td>Titanes</td><td>7</td><td>2</td><td>5</td><td>260</td><td>270</td><td>9</td></tr>
+                <tr><td>9</td><td>Turtles</td><td>7</td><td>2</td><td>5</td><td>250</td><td>280</td><td>9</td></tr>
+                <tr><td>10</td><td>Bulls</td><td>7</td><td>1</td><td>6</td><td>240</td><td>290</td><td>8</td></tr>
+                <tr><td>11</td><td>Pamca</td><td>7</td><td>0</td><td>7</td><td>230</td><td>300</td><td>7</td></tr>
+           </tbody>
+        </table>
+        
+        <p class="nota">Actualizado después de la Jornada 7.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Liga de Baloncesto Femenil. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
